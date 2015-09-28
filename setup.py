@@ -9,7 +9,7 @@ setup(name='subprocess_manager',
       author_email='abtin.gramian@gmail.com',
       url='https://github.com/agramian/subprocess-manager',
       packages=['subprocess_manager'],
-      download_url = 'https://github.com/agramian/subprocess-manager/tarball/0.1',
+      download_url = 'https://github.com/agramian/subprocess-manager/tarball/v0.1',
       keywords = ['subprocess', 'daemon', 'timeout', 'process', 'spawning', 'non-blocking'],
       classifiers = [],
      )
