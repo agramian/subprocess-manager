@@ -1,10 +1,10 @@
 # subprocess-manager
 
 ### Description
-A wrapper around python's subprocess module which handles new process spawning (optionally as a dameon), specifiying a timeout period, and printing/logging/accessing the process' output in a non-blocking fashion.
+A wrapper around python's subprocess module which handles new process spawning (optionally as a daemon), specifiying a timeout period, and printing/logging/accessing the process' output in a non-blocking fashion.
 
 ### Installation
-`pip install git+git://github.com/agramian/subprocess-manager.git`
+`pip install subprocess_manager`
 
 ### Usage
 ```
