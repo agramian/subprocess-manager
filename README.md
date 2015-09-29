@@ -1,7 +1,7 @@
 # subprocess-manager
 
 ### Description
-A wrapper around python's subprocess module which handles new process spawning (optionally as a daemon), specifiying a timeout period, and printing/logging/accessing the process' output in a non-blocking fashion.
+A wrapper around python's subprocess module which handles new process spawning (optionally as a daemon), specifying a timeout period, and printing/logging/accessing the process' output in a non-blocking fashion.
 
 ### Installation
 `pip install subprocess_manager`
