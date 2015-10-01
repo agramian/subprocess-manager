@@ -45,7 +45,7 @@ def run_subprocess(executable_command,
     assert_variable_type(executable_command, str)
     _string_vars = [stdout_file,
                     stderr_file]
-    [assert_variable_type(x, [str, NoneType]) for x in _string_vars + command_arguments]
+    [assert_variable_type(x, [str, NoneType, unicode]) for x in _string_vars + command_arguments]
     # bools
     assert_variable_type(print_process_output, bool)
     assert_variable_type(return_std, bool)

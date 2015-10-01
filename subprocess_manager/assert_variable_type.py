@@ -26,7 +26,7 @@ def assert_variable_type(variable, expected_type, raise_exception=True):
     # check the type of the variable against the list
     # then raise an exception or return True
     if not len([(t) for t in expected_type if isinstance(variable, t)]):
-        error_message = '"%s" is not an instance of type %s' %(str(variable),' or '.join([str(t) for t in expected_type]))
+        error_message = '"%s" is not an instance of type %s. It is of type %s' %(str(variable),' or '.join([str(t) for t in expected_type]), str(type(variable)))
         if raise_exception:
             raise ValueError(error_message)
         else:
